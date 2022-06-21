@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to GCET</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/about.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <img src="./assets/img/gcet-logo.png" class="nav-logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="navbarNav" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="solution.html" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="navbarNav" aria-expanded="false">
+              Solutions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Nav bar End -->
+
+  <section id="blog-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="news-letter-text">
+            <h1>Get Informed!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex">
+          <div class="letter-cont">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="btn-blog" style="margin-left: -150px; border-radius: 4px;">
+            <button type="submit" class="btn-form">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    button {
+      background: #03A9F4;
+      color: #ffffff;
+      border: none;
+      width: 128px;
+      height: 44px;
+      border-radius: 4px;
+      padding: 10px 14px;
+    }
+
+    input {
+      width: 400px;
+      height: 44px;
+      background-color: #b3d6e6;
+    }
+
+    .news-letter-text h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #0E0B2B;
+      text-align: center;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .news-letter-text p {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Nunito', sans-serif;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+
+    .letter-cont {
+      width: 609px;
+      height: 80px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px 25px;
+      box-shadow: 2px 3px 10px 1px #03A9F426;
+      margin-left: 15em;
+      margin-top: -20px;
+
+    }
+
+    input {
+      background: #F2FBFF;
+      padding-left: 8px;
+      border: #03A9F4 1px solid;
+      font-size: 16px;
+      line-height: 24px;
+
+    }
+
+    #blog-section {
+      margin-top: 120px;
+    }
+
+
+    .blog-cont-sub-text h2 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: 'Quicksand', sans-serif;
+      color: #0E0B2B;
+      width: 608px;
+      margin-left: -30px;
+      margin-bottom: 24px;
+      line-height: 32px;
+    }
+
+    .blog-cont-sub-text p {
+      margin-left: -30px;
+      width: 620px;
+      font-size: 16px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 51px;
+    }
+
+    .blog-cont-sub-text a {
+      text-decoration: none;
+    }
+
+    .blog-cont-sub {
+      display: flex;
+      gap: 13px;
+      margin-top: 12px;
+    }
+
+    .blog-cont-sub h6 {
+      background: #0E0B2B;
+      border-radius: 4px;
+      color: #ffffff;
+      padding: 10px 14px;
+      margin-left: -30px;
+    }
+
+    .blog-cont-sub p {
+      margin-top: 10px;
+
+    }
+
+    .blog-cont-1 {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-left: -30px;
+      margin-top: -29px;
+      
+    }
+
+    #blogs{
+      margin-bottom: 163px;
+    }
+  </style>
+
+
+
+  <div id="blogs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="blog-cont">
+            <img src="./assets/img/blog2-2.png" style="margin-left: -30px; margin-top: 103px;">
+            <div class="blog-cont-sub">
+              <h6>Paul Ducklin </h6>
+              <p>23rd March 2022</p>
+            </div>
+
+            <div class="blog-cont-sub-text">
+              <h2>Serious Security: DEADBOLT – the ransomware that goes straight for your backups</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim ornare odio ultrices quis enim
+                mauris
+                id dictumst amet. Leo cras tempus in in quam. Odio risus ultrices ut ut turpis nulla porta lacus. Amet
+                molestie ut pretium sed dui ullamcorper. Nec, vel porttitor posuere arcu, placerat at arcu. Porttitor
+                porta congue sociis nunc enim diam. Aenean donec nisl et elit turpis auctor massa........ <a
+                  href="">Read more</a></p>
+            </div>
+            <div class="blog-cont-1">
+              <img src="./assets/img/blog-writer.png" alt="">
+              <h5>Amarachi Ag</h5>
+              <img src="./assets/img/Ellipse 13.png" alt="">
+              <span>This is ridiculous</span>
+            </div>
+            <br>
+            <br>
+            <div class="blog-cont">
+              <img src="./assets/img/blog-1-1.png" style="margin-left: -30px; margin-top: 35px;">
+              <div class="blog-cont-sub">
+                <h6>Paul Ducklin </h6>
+                <p>23rd March 2022</p>
+              </div>
+
+              <div class="blog-cont-sub-text">
+                <h2>Web vendor CafePress fined $500,000 for giving cybersecurity a low value</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim ornare odio ultrices quis enim
+                  mauris
+                  id dictumst amet. Leo cras tempus in in quam. Odio risus ultrices ut ut turpis nulla porta lacus. Amet
+                  molestie ut pretium sed dui ullamcorper. Nec, vel porttitor posuere arcu, placerat at arcu. Porttitor
+                  porta congue sociis nunc enim diam. Aenean donec nisl et elit turpis auctor massa........ <a
+                    href="">Read more</a></p>
+              </div>
+              <div class="blog-cont-1">
+                <img src="./assets/img/blog-writer.png" alt="">
+                <h5>Amarachi Ag</h5>
+                <img src="./assets/img/Ellipse 13.png" alt="">
+                <span>This is ridiculous</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section>
+
+    <div id="blog-sidebar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-3-3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>Alleged Kaseya ransomware attacker arrives in Texas for trial</h2>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-4.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>OpenSSL patches infinite-loop DoS bug in certificate verification</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-5.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>
+            S3 Ep74: Cybercrime busts, Apple patches, Pi Day, and disconnects...</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-6.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>Beware bogus Betas – cryptocoin scammers abuse Apple’s...</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-7.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>CISA warning: “Russian actors bypassed 2FA” – what happened...</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="side-img">
+              <img src="./assets/img/blog-8.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="side-text">
+            <p>Frank Korg</p>
+            <h6>23rd March 2022</h6>
+          </div>
+        </div>
+        <div class="heading-text">
+          <h2>Apple patches 87 security holes – from iPhones and Macs to Wind...</h2>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+  <!-- newletter Demo -->
+
+  <style>
+    .side-text {
+      display: flex;
+      gap: 7px;
+      margin-top: -6.2em;
+      margin-left: 7em;
+
+    }
+
+    .side-text p {
+      background: #0E0B2B;
+      color: #ffffff;
+      min-width: 108px;
+      padding: 8px 14px;
+      border-radius: 4px;
+
+
+
+    }
+
+    .side-text h6 {
+      font-size: 14px;
+      color: #0E0B2B80;
+      min-width: 110px;
+      margin-top: 10px;
+
+    }
+
+
+    .heading-text h2 {
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+      line-height: 24px;
+      color: #0E0B2B;
+      width: 297px;
+      margin-left: 6.2em;
+      margin-top: -2.8em;
+
+
+    }
+
+    .heading-text {
+      margin-top: 48px;
+    }
+
+
+    #blog-sidebar {
+      position: absolute;
+      top: 0;
+      left: 890px;
+      margin-top: 32em;
+
+    }
+
+
+    .side-count {
+      display: flex;
+      gap: 7px;
+    }
+  </style>
+
+
+
+  <!-- Footer Section -->
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-1">
+            <img src="./assets/img/footer-logo 1.png" alt="">
+            <p>Global Concept Emerge Technologies Limited has infrastructure, network & security certified experts and
+              specialists in these business IT solutions.</p>
+            <div class="copy-right">
+              <p><img src="./assets/img/emojione_copyright.png">Copyrights GCET. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-2">
+            <h1>Solutions</h1>
+            <p>
+              Enterprise Security Solutions & Services <br>
+              Infrastructure Solutions & Services <br>
+              Business Service Management <br>
+              Enterprise Networking Solutions <br>
+              Cloud and Mobile Solutions <br>
+              Business Enterprise Software
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="footer-3">
+            <h1>Contact Us </h1>
+            <div class="profile-1">
+              <img src="./assets/img/phone.png" class="phone-img">
+              <div class="phone">
+                <p>+234 1 2719173</p>
+              </div>
+            </div>
+
+            <div class="profile-2">
+              <img src="./assets/img/message.png" alt="">
+              <p>info@gcetng.com</p>
+            </div>
+
+            <div class="profile-3">
+              <img src="./assets/img/icon-1.png" class="address">
+              <span>5th floor, Mulliner Towers, 39
+              </span>
+
+            </div>
+            <div class="address-2">
+              <p>Alfred Rewane Road, Ikoyi, Lagos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
